@@ -4,6 +4,27 @@ Public release channel for **Mortis Cut** — multitrack video editing.
 
 Auto-updating Windows installers, published with [electron-updater](https://www.electron.build/auto-update). **Source code is private.**
 
+## What it does
+
+- Multitrack timeline with razor cuts, snapping, markers and per-clip speed changes.
+- Twelve transitions, plus keyframed colour grading, scale, crop, position and opacity.
+- The whole timeline compiles to a single ffmpeg filter graph — gaps stay gaps and audio stays in sync through transitions.
+- Detects moved or renamed source files on load and lets you relink them.
+- Bundled ffmpeg and ffprobe — nothing to install separately.
+
+## Account required — Mortis Cloud
+
+Mortis Cut is gated behind a free **Mortis Cloud** account. One account works across the whole
+suite — the same login opens all four apps.
+
+- **Create an account at [mortis.cloud](https://mortis.cloud).**
+- On first launch the app shows a sign-in screen and stays locked until you log in, so the
+  **first run needs an internet connection**.
+- After that the session is remembered on your machine and the app runs **offline** — it does
+  not phone home while you work. Only signing in touches the network.
+
+Without a Mortis Cloud account the app will not open past the login screen.
+
 ## Download
 
 Grab the latest build from the [Releases page](../../releases).
